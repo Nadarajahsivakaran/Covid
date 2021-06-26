@@ -16,7 +16,7 @@ use App\Http\Controllers\loginController;
 */
 
 Route::get('/', function () {
-    return view('home');
+    return view('pcr');
 });
 
 Route::get('/registration',[registrationController::class,'registration']);
