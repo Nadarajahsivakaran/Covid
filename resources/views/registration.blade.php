@@ -1,3 +1,4 @@
+
 <link href="{{ asset('css/registration.css') }}" rel="stylesheet" type="text/css" >
 
 <body>
@@ -24,19 +25,19 @@
 
                     <div class="input-box">
                         <span class="details">USER NAME</span>
-                        <input type="text"  name="username" placeholder="Enter your username" value="{{old('username')}}" required>
+                        <input type="text"  name="username" placeholder="Enter your username..." value="{{old('username')}}" required>
                         <span class="text-danger">@error('username'){{$message}} @enderror</span>
                     </div>
 
                     <div class="input-box">
                         <span class="details">EMAIL</span>
-                        <input type="email"  name="email" placeholder="Enter your email" value="{{old('email')}}" required>
+                        <input type="email"  name="email" placeholder="Enter your email..." value="{{old('email')}}" required>
                         <span class="text-danger">@error('email'){{$message}} @enderror</span>
                     </div>
 
                     <div class="input-box">
                         <span class="details">PASSWORD</span>
-                        <input type="password"  name="password" placeholder="Enter your password" value="{{old('password')}}"  required>
+                        <input type="password"  name="password" placeholder="Enter your password..." value="{{old('password')}}"  required>
                         <span class="text-danger">@error('password'){{$message}} @enderror</span>
                     </div>
 
