@@ -182,6 +182,8 @@ form .user-details .input-box{
 
     <body>
 
+ 
+
     <h1> PASS</h1>
 
     <p>The nose swab PCR test for COVID-19 is the most accurate and reliable test for diagnosing COVID-19. A positive test means you likely have COVID-19. A negative test means you probably did not have COVID-19 at the time of the test. Get tested if you have symptoms of COVID-19 or have been
@@ -271,7 +273,7 @@ form .user-details .input-box{
 
             </div>
         </div>
-
+       
     </body>
 </html>
 

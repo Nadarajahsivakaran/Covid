@@ -1,4 +1,7 @@
+
 @extends ('style/css')
+
+
 
 <!DOCTYPE html>
 <!-- Created By CodingLab - www.codinglabweb.com -->
@@ -12,7 +15,7 @@
     </head>
 
     <body>
-
+    
             
 
 
@@ -46,6 +49,6 @@
                 </form>
             </div>
         </div>
-
+       
     </body>
 </html>

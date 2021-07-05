@@ -1,0 +1,15 @@
+-------------------- Auto-Git Log --------------------
+		Mon Jul 05 2021 15:47:38 GMT+0530 (India Standard Time)
+------------------------------------------------------
+
+Modified files:
+* resources/views/include/header.blade.php
+
+
+Created files:
+
+
+Deleted files:
+
+
+Renamed files:

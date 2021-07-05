@@ -1,4 +1,7 @@
-@extends('include/master');
+@extends('include/master')
+@extends('include/header')
+
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -22,7 +25,7 @@
 </head>
 <body>
 
-
+@section('content')
 
 
 <div class=" card">
@@ -64,5 +67,7 @@
 
     </div>
 </div>
+
+@endsection
 </body>
 </html>

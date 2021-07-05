@@ -1,6 +1,7 @@
 
 
 
+
 <!DOCTYPE html>
 <!-- Created By CodingLab - www.codinglabweb.com -->
 <html lang="en" dir="ltr">
@@ -182,6 +183,8 @@ form .user-details .input-box{
 
     <body>
 
+    
+
     <h1> VACCINE</h1>
 
     <p>WHO believes that everyone, everywhere who could benefit from safe and effective COVID-19 vaccines should have access as quickly as possible, starting with those at highest risk of serious disease or death. </p>
@@ -269,7 +272,7 @@ form .user-details .input-box{
 
             </div>
         </div>
-
+       
     </body>
 </html>
 
