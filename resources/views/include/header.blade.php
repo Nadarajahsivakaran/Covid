@@ -16,6 +16,9 @@
   
   </head>
   <body>
+
+
+  @yield('content')
     <nav>
 
    
