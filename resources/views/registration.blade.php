@@ -28,41 +28,30 @@
              @endif
 
         <div class="container">
-                          <div class="title">Registration</div>
+                          <div class="title">Sign up</div>
             <div class="content">
                 <form action="{{route('registration.save')}}" method="POST">
                     @csrf
                     <div class="user-details">
 
-                        <div class="input-box">
-                            <span class="details">Full Name</span>
-                            <input type="text"  name="fullname" placeholder="Enter your name" value="{{old('name')}}" required>
-                        </div>
-
-                        <div class="input-box">
-                            <span class="details">Email</span>
-                            <input type="email"  name="email" placeholder="Enter your email" value="{{old('email')}}" required>
-                        </div>
-
-                        <div class="input-box">
-                            <span class="details">Phone Number</span>
-                            <input type="text"  name="phonenumber" placeholder="Enter your number"value="{{old('phonenumber')}}"required>
-                        </div>
-
-                        <div class="input-box">
-                            <span class="details">Username</span>
+                    <div class="input-box">
+                            <span class="details">USER NAME</span>
                             <input type="text"  name="username" placeholder="Enter your username" value="{{old('username')}}" required>
+                            <span class="text-danger">@error('username'){{$message}} @enderror</span>
                         </div>
 
                         <div class="input-box">
-                            <span class="details">Password</span>
+                            <span class="details">EMAIL</span>
+                            <input type="email"  name="email" placeholder="Enter your email" value="{{old('email')}}" required>
+                            <span class="text-danger">@error('email'){{$message}} @enderror</span>
+                        </div>
+
+                        <div class="input-box">
+                            <span class="details">PASSWORD</span>
                             <input type="password"  name="password" placeholder="Enter your password" value="{{old('password')}}"  required>
+                            <span class="text-danger">@error('password'){{$message}} @enderror</span>
                         </div>
 
-                        <div class="input-box">
-                            <span class="details">Confirm Password</span>
-                            <input type="password"  name="confirmpassword" placeholder="Confirm your password" value="{{old('confirmpassword')}}" required>
-                        </div>
                         
                     </div>
                 
@@ -72,7 +61,7 @@
 
                         If you have already account
                         
-                        <a href="login.blade.php">Log in</a>
+                        <a href="{{route('login')}}">Sign in</a>
                         
                         
                 </form>

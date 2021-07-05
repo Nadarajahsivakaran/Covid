@@ -23,7 +23,7 @@
 body{
   background-color:white;
 
-  background-image: url("https://cdn.aarp.net/content/dam/aarp/health/conditions_treatments/2020/09/1140_coronavirus-test.jpg");
+  background-image: url("https://lh3.googleusercontent.com/proxy/OC-X0jrYaxEciphWh537RmzC37uSQPyhCpeLfcvGC-uLY-DHwgwgmOusIPPjbO6VA9FkjhIp_KeIQ9gktuWM3QSvwWe1-BP_rciNOqfBdBkKJ2fS37iFCaPEWbJT-OuH6g");
   background-repeat: no-repeat;
   background-position: center; 
   background-size: cover;
@@ -182,7 +182,7 @@ form .user-details .input-box{
 
     <body>
 
-    <h1> PCR TEST</h1>
+    <h1> PASS</h1>
 
     <p>The nose swab PCR test for COVID-19 is the most accurate and reliable test for diagnosing COVID-19. A positive test means you likely have COVID-19. A negative test means you probably did not have COVID-19 at the time of the test. Get tested if you have symptoms of COVID-19 or have been
      exposed to someone who tested positive for COVID-19.</p>
@@ -206,7 +206,7 @@ form .user-details .input-box{
         <div class="container">
                           <div class="title">User Details</div>
             <div class="content" >
-                <form action="{{route('pcrAction')}}" method="POST">
+                <form action="{{route('passAction')}}" method="POST">
                     @csrf
                     <div class="user-details">
 
@@ -241,8 +241,8 @@ form .user-details .input-box{
                         </div>
 
                         <div class="input-box">
-                            <span class="details">If you visit any places within this previous days</span>
-                            <input type="text"  name="visit" placeholder="Any places"value="{{old('visit')}}"required>
+                            <span class="details">What type of pass do you want</span>
+                            <input type="text"  name="pass" placeholder="Any places"value="{{old('pass')}}"required>
                         </div>
 
                         <div class="input-box">

@@ -57,7 +57,7 @@ body{
 }
 form .user-details .input-box{
   margin-bottom: 15px;
-  width: calc(100% / 2 - 20px);
+  width: calc(100% / 1 - 20px);
 }
 form .input-box span.details{
   display: block;

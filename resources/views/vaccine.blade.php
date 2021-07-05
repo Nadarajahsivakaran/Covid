@@ -23,7 +23,7 @@
 body{
   background-color:white;
 
-  background-image: url("https://cdn.aarp.net/content/dam/aarp/health/conditions_treatments/2020/09/1140_coronavirus-test.jpg");
+  background-image: url("https://images.hindustantimes.com/rf/image_size_630x354/HT/p2/2020/12/26/Pictures/_01f597a2-478b-11eb-b4f2-1df98d963a79.jpg");
   background-repeat: no-repeat;
   background-position: center; 
   background-size: cover;
@@ -182,13 +182,11 @@ form .user-details .input-box{
 
     <body>
 
-    <h1> PCR TEST</h1>
+    <h1> VACCINE</h1>
 
-    <p>The nose swab PCR test for COVID-19 is the most accurate and reliable test for diagnosing COVID-19. A positive test means you likely have COVID-19. A negative test means you probably did not have COVID-19 at the time of the test. Get tested if you have symptoms of COVID-19 or have been
-     exposed to someone who tested positive for COVID-19.</p>
+    <p>WHO believes that everyone, everywhere who could benefit from safe and effective COVID-19 vaccines should have access as quickly as possible, starting with those at highest risk of serious disease or death. </p>
 
-     <p>A polymerase chain reaction (PCR) test is performed to detect genetic material from a specific organism, such as a virus. The test detects the presence of a virus if you are infected at the time of the test. The test could also detect fragments 
-     of virus even after you are no longer infected.</p>
+     <p>WHO’s Strategic Advisory Group of Experts on Immunization (SAGE) has released two key documents to help guide the allocation and prioritization of populations to receive COVID-19 vaccines:</p>
     
             @if(session('success'))
             <div class="alert alert-primary" role="alert">
@@ -206,7 +204,7 @@ form .user-details .input-box{
         <div class="container">
                           <div class="title">User Details</div>
             <div class="content" >
-                <form action="{{route('pcrAction')}}" method="POST">
+                <form action="{{route('vaccineAction')}}" method="POST">
                     @csrf
                     <div class="user-details">
 
@@ -241,8 +239,8 @@ form .user-details .input-box{
                         </div>
 
                         <div class="input-box">
-                            <span class="details">If you visit any places within this previous days</span>
-                            <input type="text"  name="visit" placeholder="Any places"value="{{old('visit')}}"required>
+                            <span class="details">Do you have any diseaese</span>
+                            <input type="text"  name="diseases" placeholder="Any diseases"value="{{old('diseases')}}"required>
                         </div>
 
                         <div class="input-box">

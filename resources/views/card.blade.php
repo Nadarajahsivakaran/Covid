@@ -34,7 +34,7 @@
             <div class="card-body">
             <h5 class="card-title">PCR TEST</h5>
             <p class="card-text">If you have any of (COVID-19) symptoms, use this service to get a polymerase chain reaction (PCR) test as soon as possible:.</p>
-            <a href="#" class="btn btn-success">Click</a>
+            <a href="{{route('pcr')}}" class="btn btn-success">Click</a>
             </div>
             </div>
         </div>
@@ -45,7 +45,7 @@
             <div class="card-body">
             <h5 class="card-title">VACCINE</h5>
             <p class="card-text">Equitable access to safe and effective vaccines is critical to ending the COVID-19 pandemic, so it is hugely encouraging to see so many vaccines proving and going into development.  </p>
-            <a href="#" class="btn btn-success">Click</a>
+            <a href="{{route('vaccine')}}" class="btn btn-success">Click</a>
             </div>
             </div>
         </div>
@@ -56,7 +56,7 @@
             <div class="card-body">
             <h5 class="card-title">PASS</h5>
             <p class="card-text">Following an island-wide travel restriction, the Government of Sri Lanka have announced new health guidelines which will be in place until 5 July 2021.  .</p>
-            <a href="#" class="btn btn-success">Click</a>
+            <a href="{{route('pass')}}" class="btn btn-success">Click</a>
             </div>
             </div>
         </div>

@@ -15,10 +15,8 @@ class CreateRegistrationTable extends Migration
     {
         Schema::create('registration', function (Blueprint $table) {
             $table->id();
-            $table->string('fullname');
-            $table->string('email');
-            $table->string('phonenumber');
             $table->string('username');
+            $table->string('email');
             $table->string('password');
             $table->timestamps();
         });

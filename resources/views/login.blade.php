@@ -17,19 +17,19 @@
 
 
         <div class="container">
-                          <div class="title">Log in</div>
+                          <div class="title">Sign in</div>
             <div class="content">
                 <form action="{{route('userlogin')}}" method="POST">
                     @csrf
                     <div class="user-details">
 
                         <div class="input-box">
-                            <span class="details">Username</span>
+                            <span class="details">USER NAME</span>
                             <input type="text"  name="username" placeholder="Enter your username" required>
                         </div>
 
                         <div class="input-box">
-                            <span class="details">Password</span>
+                            <span class="details">PASSWORD</span>
                             <input type="password"  name="password" placeholder="Enter your password" required>
                         </div>
 
@@ -39,6 +39,10 @@
                         <div class="button">
                             <input type="submit" value="login">
                         </div>
+
+                        If you don't have an account. create new one
+                        
+                        <a href="{{route('registration')}}">Sign up</a>
                 </form>
             </div>
         </div>
