@@ -18,7 +18,7 @@ use App\Http\Controllers\vaccineController;
 */
 
 Route::get('/', function () {
-    return view('card');
+    return view('include/header');
 });
 
 Route::get('/registration',[registrationController::class,'registration'])->name('registration');

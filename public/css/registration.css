@@ -11,7 +11,7 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 5px;
+  padding: 4px;
   background: linear-gradient(135deg, #71b7e6, #9b59b6);
 }
 .container{
@@ -63,7 +63,7 @@ form .input-box span.details{
   font-size: 16px;
   border-radius: 5px;
   padding-left: 15px;
-  border: 1px solid #ccc;
+  border: 1px solid rgb(211, 193, 193);
   border-bottom-width: 2px;
   transition: all 0.3s ease;
 }
@@ -105,15 +105,18 @@ form .input-box span.details{
    display: none;
  }
  form .button{
+    justify-content: center;
+    align-items: center;
    width: 50%;
-   
    height: 45px;
-   margin: 35px 0
+   margin: 25px 0
  }
  form .button input{
+   justify-content: center;
+   align-items: center;
    height: 100%;
    width: 100%;
-   border-radius: 5px;
+   border-radius: 10px;
    border: none;
    color: #fff;
    font-size: 18px;
@@ -122,7 +125,11 @@ form .input-box span.details{
    cursor: pointer;
    transition: all 0.3s ease;
    background: linear-gradient(135deg, #71b7e6, #9b59b6);
- }
+   -webkit-border-radius: 10px;
+   -moz-border-radius: 10px;
+   -ms-border-radius: 10px;
+   -o-border-radius: 10px;
+}
  form .button input:hover{
   /* transform: scale(0.99); */
   background: linear-gradient(-135deg, #71b7e6, #9b59b6);
